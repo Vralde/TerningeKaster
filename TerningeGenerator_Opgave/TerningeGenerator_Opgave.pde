@@ -144,12 +144,12 @@ void udskrivKast(){
 
 
 void tegnFordeling(){
-  rect(boxX, boxY, boxWidth, boxSize - (Num1 * 20));
-  rect(boxX+100, boxY, boxWidth, boxSize - (Num2 * 20));
-  rect(boxX+200, boxY, boxWidth, boxSize - (Num3 * 20));
-  rect(boxX+300, boxY, boxWidth, boxSize - (Num4 * 20));
-  rect(boxX+400, boxY, boxWidth, boxSize - (Num5 * 20));
-  rect(boxX+500, boxY, boxWidth, boxSize - (Num6 * 20));
+  rect(boxX, boxY, boxWidth, boxSize - Num1 * 20);
+  rect(boxX+100, boxY, boxWidth, boxSize - Num2 * 20);
+  rect(boxX+200, boxY, boxWidth, boxSize - Num3 * 20);
+  rect(boxX+300, boxY, boxWidth, boxSize - Num4 * 20);
+  rect(boxX+400, boxY, boxWidth, boxSize - Num5 * 20);
+  rect(boxX+500, boxY, boxWidth, boxSize - Num6 * 20);
   
   //Dette er alle kasserne, som jo bliver større med hvert kast. Men for at få kasserne til at gå op, skal det tal vi lægger til størrelsen, være negativt.
   //Det er en funktion, som vi bare kan kalde senere i koden. Smart at bruge, i stedet for at "hårdt kode", hvor man kun kan bruge den det ene sted.
